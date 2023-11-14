@@ -1,0 +1,40 @@
+p {
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Espaçamento ao redor do carrossel */
+#carouselNovasColecoes {
+    margin-top: 30px; /* Espaço acima do carrossel */
+    margin-bottom: 30px; /* Espaço abaixo do carrossel */
+}
+
+/* Estilizando os itens do carrossel */
+.carousel-item {
+    text-align: center; /* Centraliza as imagens se elas não ocuparem toda a largura */
+}
+
+/* Imagens do carrossel */
+.carousel-item img {
+    max-height: 650px; /* Define a altura máxima */
+    width: auto; /* Mantém a largura proporcional à altura */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do carrossel */
+    object-fit: contain; /* Garante que a imagem seja redimensionada proporcionalmente */
+    margin: auto; /* Centraliza a imagem */
+}
+
+/* Botões de controle do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 50%; /* Faz os ícones ficarem redondos */
+    padding: 10px; /* Tamanho dos ícones */
+}
+
+/* Ajustes para responsividade e tamanhos menores de tela */
+@media (max-width: 768px) {
+    .carousel-item img {
+        max-height: 300px; /* Altura máxima menor para telas pequenas */
+    }
+}
