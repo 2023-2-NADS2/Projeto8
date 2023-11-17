@@ -228,7 +228,7 @@ main {
 @media (max-width: 768px) {
     .conteudos-main h2 {
         font-size: 18px;
-        width: 90%; 
+        width: 90%;
     }
 }
 
@@ -618,7 +618,7 @@ nav {
 
 @media (max-width: 768px) {
     .blocosProdutos {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
 }
 
@@ -724,7 +724,7 @@ nav {
 @media (max-width: 768px) {
     .containerSessaoOutrosProdutos {
         width: 90%;
-        padding: 0 15px; 
+        padding: 0 15px;
     }
 }
 
@@ -749,7 +749,7 @@ nav {
 
 @media (max-width: 768px) {
     .textosQuemSomos h2 {
-        font-size: 28px; 
+        font-size: 28px;
         margin-left: 30px;
     }
 
@@ -768,7 +768,7 @@ nav {
 @media (max-width: 768px) {
     .imagemQuemSomos {
         width: 100%;
-        max-width: 300px; 
+        max-width: 300px;
     }
 }
 
@@ -781,6 +781,12 @@ nav {
 .containerTituloProdutos h1 {
     font-size: 35px;
     font-weight: 500;
+}
+
+.cinza {
+    background: #cdcdcda8;
+    width: 100%;
+    margin-top: 30px;
 }
 
 @media (max-width: 768px) {
