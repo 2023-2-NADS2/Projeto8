@@ -1,8 +1,6 @@
 # New Beach - Site de Loja de Roupas
 
-<p text-align="center">
 ![Logo da New Beach](/frontend/favicon.ico)
-</p>
 
 ---
 
